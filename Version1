@@ -1,0 +1,20 @@
+# Define the addition function
+def add_numbers(num1, num2):
+    return num1 + num2
+ 
+# Define the subtraction function
+def subtract_numbers(num1, num2):
+    return num1 - num2
+ 
+# Main program
+if __name__ == "__main__":
+    # Input from the user
+    number1 = float(input("Enter first number: "))
+    number2 = float(input("Enter second number: "))
+    # Call the addition function
+    sum_result = add_numbers(number1, number2)
+    # Call the subtraction function
+    subtraction_result = subtract_numbers(number1, number2)
+    # Display the results
+    print(f"The sum of {number1} and {number2} is {sum_result}")
+    print(f"The difference between {number1} and {number2} is {subtraction_result}")
